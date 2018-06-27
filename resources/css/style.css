@@ -1,0 +1,165 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+header nav {
+  padding-right: 40px;
+}
+
+/* Content */
+
+.content {
+  padding-top: 69px;
+}
+
+/* Mission */
+
+.mission {
+  display: flex;
+  background-image: url("/Users/whitneywinter/Documents/Projects/TeaCozy/resources/img-mission-background.jpg");
+  background-size: cover;
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+}
+
+.main.text-content {
+  background-color: black;
+  width: 100%;
+}
+
+/* Tea */
+
+.tea {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.image-content {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+}
+
+.tea span {
+  padding: 10px;
+}
+
+/* Locations */
+
+.locations-main {
+  display: flex;
+  background-image: url("/Users/whitneywinter/Documents/Projects/TeaCozy/resources/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  margin: 0 auto;
+  background-size: cover;
+  flex-direction: column;
+}
+
+.locations {
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+}
+
+.downtown-location {
+  padding: 15px 40px;
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  margin: 40px auto;
+}
+
+.downtown {
+  display: block;
+  padding: 10px;
+}
+
+.bayside-location {
+  padding: 15px 40px;
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  margin: 40px auto;
+}
+
+.bayside {
+  display: block;
+  padding: 10px;
+}
+
+.oakdale-location {
+  padding: 15px 40px;
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  margin: 40px auto;
+}
+
+.oakdale {
+  display: block;
+  padding: 10px;
+}
+
+/* Footer */
+
+footer {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+}
